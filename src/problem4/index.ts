@@ -8,7 +8,7 @@ func sum_to_n_a(n: number): number {
 
 func sum_to_n_b(n: number): number {
 	if(n === 1) return 1
-	return sum_to_n_b(n-1)
+	return n + sum_to_n_b(n-1)
 }
 
 func sum_to_n_c(n: number): number {
